@@ -1,0 +1,8 @@
+This project contains a simple example of how to import the DNSimple JavaScript library into a web
+page.
+
+The dnsimple.js file must be on your server and provides a loading mechanism to include the full
+API script from the DNSimple site into your page.
+
+Please note that this project uses CORS (http://www.w3.org/TR/cors/) and thus requires a browser
+that implements the CORS specification.
