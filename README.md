@@ -13,3 +13,9 @@ To get started, add the following to the head of your HTML:
 
 Please note that this project uses CORS (http://www.w3.org/TR/cors/) and thus requires a browser
 that implements the CORS specification.
+
+== Listing domains
+
+  DNSimple.Domain.all(function(domains) { console.log(domains); });
+
+The callback function will be passed a collection of domain objects.
