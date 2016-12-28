@@ -1,3 +1,5 @@
+NOTE: This project is no longer maintained and is not supported.
+
 This project contains a simple example of how to import the DNSimple JavaScript library into a web
 page.
 
@@ -14,7 +16,7 @@ To get started, add the following to the head of your HTML:
 Please note that this project uses CORS (http://www.w3.org/TR/cors/) and thus requires a browser
 that implements the CORS specification.
 
-== Listing domains
+## Listing domains
 
   DNSimple.Domain.all(function(domains) { console.log(domains); });
 
